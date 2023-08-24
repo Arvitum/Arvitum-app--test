@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>Arvitum-app--test</name>
     <description>Arvitum-app--test</description>
+    <packaging>war</packaging>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -63,6 +64,14 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.1</version> <!-- Use the appropriate version -->
+                <configuration>
+                    <!-- Configure the plugin if needed -->
                 </configuration>
             </plugin>
         </plugins>
