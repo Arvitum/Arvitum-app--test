@@ -5,6 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.ai.tool.annotation.ToolParam;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class ArvitumAppTestApplication {
 
